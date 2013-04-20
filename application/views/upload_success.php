@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Upload Form</title>
+</head>
+<body>
+<meta http-equiv="REFRESH" content="5;url=http://piet.us/glitchit/"></HEAD>
+<h3>Your file was successfully uploaded!</h3>
+<?php $this->load->helper('url'); ?>
+<ul>
+<?php foreach ($upload_data as $item => $value):?>
+<li><?php echo $item;?>: <?php echo $value;?></li>
+<?php endforeach; ?>
+</ul>
+
+
+
+</body>
+</html>

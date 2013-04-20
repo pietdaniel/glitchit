@@ -1,0 +1,55 @@
+body {
+  text-align:center;
+  background-image:url('/glitchit/bg.png');
+  background-color:#000000;
+  background-position:center top;
+}
+h1 {
+  position:absolute;
+  left:42%;
+  padding-left:4px;
+  top:15px;
+  color:rgba(0,255,255,.5);
+  font-family:'arial';
+  text-shadow: -8px 0 0 rgba(255,0,0,.5);
+  font-size:50px;
+}
+h2 {
+  position:absolute;
+  left:42%;
+  color:#ffffff;
+  font-family:'arial';
+  font-size:50px;
+  
+}
+
+#footer {
+
+  padding-top:50%;
+  font-size:8px;
+
+}
+
+#container {
+  top:200px;
+  position:relative;
+}
+
+#inputbox {
+  width:400px;
+}
+
+#submit {
+  background-color:#a0a0a0;
+  padding-left:5px;
+  padding-right:5px;
+  width:75px;
+}
+
+#file {
+  background-color:#a0a0a0;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:1px;
+  
+}

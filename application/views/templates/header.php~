@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title><?php echo $title ?> - Glitchit</title>
+  <link type="text/css" href="/glitchit/style.css" rel="stylesheet" />
+  
+
+</head>
+<body>
+  <h1>glitch it</h1>
+  <h2>glitch it</h2>
+<?php
+$clean_url = str_replace('index.php','',current_url());
+$current_url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+
+if($clean_url!==$current_url)
+{
+    redirect($clean_url,'location',301);
+}
+?>
+
+  <div id="container">
+  
+ 

@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title><?php echo $title ?> - Glitchit</title>
+  <link type="text/css" href="/glitchit/style.css" rel="stylesheet" />
+  
+
+</head>
+<body>
+  <h1>glitch it</h1>
+  <h2>glitch it</h2>
+
+  <div id="container">
+  
+ 
